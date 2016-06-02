@@ -1,0 +1,24 @@
+{
+  "name": "html-next-line-replace-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin which helps to replace script tag and href tag in HTML files with new tag that has appropricate path to your build js and css files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudyhuynh/html-next-line-replace-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack-plugins",
+    "html",
+    "replace"
+  ],
+  "author": "rudyhuynh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudyhuynh/html-next-line-replace-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/rudyhuynh/html-next-line-replace-webpack-plugin#readme"
+}

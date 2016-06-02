@@ -38,5 +38,7 @@ It will read the HTML files, replace the line has the `<!--@replace()-->` annota
 
 ## API
 
-* `new HTMLNextLineReplace(options)`
-  * 
+* new HTMLNextLineReplace({root, src, dest})
+    * root: will be add to the begining of the path in new script tag or css tag.
+    * src: path to HTML files to run this plugin.
+    * dest: path to where to save new HTML files.

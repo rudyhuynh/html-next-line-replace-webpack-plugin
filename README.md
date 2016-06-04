@@ -1,10 +1,16 @@
-# About this
+## About this
 A Webpack plugin which helps to replace script tag and href tag HTML files with new tag that has appropriate path to your build js and css files.
 
 This is usefull when you build your js and css assets using `[chunkhash]` in output file name.
 
 ## What it does
 It will read the HTML files, replace the line has the `<!--@replace()-->` annotation and the line next to with appropricate script tag (for js) or href tag (for css), then save new HTML files into new place.
+
+## Installation
+````
+npm i html-next-line-replace-webpack-plugin --save-dev
+
+````
 
 ## Usage
 ### In HTML files:
@@ -20,6 +26,7 @@ It will read the HTML files, replace the line has the `<!--@replace()-->` annota
 ````
 ### In Wepback config file:
 ````
+	var HTMLNextLineReplace = require('html-next-line-replace-webpack-plugin')
 	module.exports = {
 		entry: [...],
 		output: {
